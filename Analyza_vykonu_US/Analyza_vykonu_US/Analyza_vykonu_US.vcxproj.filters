@@ -13,14 +13,59 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{383c2805-bd6e-44f3-b3d8-fbb0be76dda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS_structure">
+      <UniqueIdentifier>{13f52f88-636d-4f5a-9d70-f7336e7b3517}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data_routines.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_data.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
     <ClCompile Include="ArrayList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\4.cvicenie\data\data_routines.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data_types.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_data.h">
+      <Filter>data</Filter>
+    </ClInclude>
     <ClInclude Include="ArrayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>Header Files\DS_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_routines.h">
+      <Filter>Header Files\DS_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

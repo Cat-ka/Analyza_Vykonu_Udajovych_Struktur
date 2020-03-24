@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="ArrayList1.cpp" />
+    <ClCompile Include="data_routines.cpp" />
+    <ClCompile Include="graph_data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\4.cvicenie\data\data_routines.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="ArrayList1.h" />
+    <ClInclude Include="data_types.h" />
+    <ClInclude Include="ds_routines.h" />
+    <ClInclude Include="ds_structure_types.h" />
+    <ClInclude Include="graph_data.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="structure.h" />
+    <ClInclude Include="structure_iterator.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{AD543902-F33B-4583-9618-AC51EBC0565A}</ProjectGuid>
@@ -137,12 +156,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ArrayList.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ArrayList.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
