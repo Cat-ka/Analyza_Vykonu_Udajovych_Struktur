@@ -19,23 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.cpp" />
-    <ClCompile Include="ArrayList1.cpp" />
-    <ClCompile Include="data_routines.cpp" />
-    <ClCompile Include="graph_data.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\4.cvicenie\data\data_routines.h" />
-    <ClInclude Include="array.h" />
     <ClInclude Include="ArrayList.h" />
-    <ClInclude Include="ArrayList1.h" />
-    <ClInclude Include="data_types.h" />
-    <ClInclude Include="ds_routines.h" />
-    <ClInclude Include="ds_structure_types.h" />
-    <ClInclude Include="graph_data.h" />
-    <ClInclude Include="list.h" />
-    <ClInclude Include="structure.h" />
-    <ClInclude Include="structure_iterator.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
